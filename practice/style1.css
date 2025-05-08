@@ -1,0 +1,33 @@
+
+
+
+ul{
+    float:left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+ul li{
+    list-style:none;
+    padding:20px;
+    font-size:20px;
+    font-family:Arial;
+    color:white;
+    transition:0.5s;
+   /*  background-color:blue; */
+}
+ul li a{
+    text-decoration:none;
+    color:black;
+    transition:0.5s;
+    font-family: Arial;
+    font-weight:bold;
+    margin-right:40px;
+    /* background-color: blueviolet; */
+}
+ul li a:hover{
+    color:tomato;
+    transform:scale(1.2);
+    background-color: blueviolet;
+    
+}

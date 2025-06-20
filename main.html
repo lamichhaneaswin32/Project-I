@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<!-- //link Java script -->
+ <script src="all.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trek Hub Nepal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Trek Hub Nepal Logo">
+            <h1>Trek Hub Nepal</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#treks">Treks</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero-section">
+
+            <div class="slider">
+                <img src="Himalayas.jpeg" class="slide active" alt="Himalayas Image 1">
+                <img src="a.jpeg" class="slide" alt="Himalayas Image 2">
+                <img src="b.jpeg" class="slide" alt="Himalayas Image 3">
+            </div>
+        <div class="slider-controls">
+            <button class="prev">Prev</button>
+            <button class="next">Next</button>
+        </div>
+        
+      
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Discover the <span class="highlight">Himalayas</span></h2>
+                <p>Experience the adventure of a lifetime with Nepal's most trusted trekking company.</p>
+                <div class="buttons">
+                    <a href="#" class="btn">Explore Treks</a>
+                    <a href="#" class="btn">Plan Your Journey</a>
+                </div>
+            </div>
+        </section>
+        <section class="popular-activities">
+    <h2>Popular Activities</h2>
+    <p class="subtitle">Explore by activities.</p>
+    <p class="description">Wide range of activities to get involved in.</p>
+    
+    <div class="activity-grid">
+        <div class="activity-card">
+            <img src="peak-climbing.jpg" alt="Peak Climbing">
+            <h3>Peak Climbing</h3>
+        </div>
+        <div class="activity-card">
+            <img src="trekking.jpeg" alt="Trekking">
+            <h3>Trekking</h3>
+        </div>
+        <div class="activity-card">
+            <img src="day-activities.jpeg" alt="Day Activities">
+            <h3>Day Activities</h3>
+        </div>
+    </div>
+
+    <div class="activity-buttons">
+        <a href="https://thenepaltrekkingcompany.com/activities/peak-climbing/" class="cta-btn">Learn More</a>
+    </div>
+</section>
+
+  
+  
+   
+      <section id="treks">
+    <h2>Popular Trekking Destinations</h2>
+    <div class="search-section">
+    <input type="text" id="searchBox" placeholder="Search treks...">
+    <ul id="trekList">
+        <li>Everest Base Camp</li>
+        <li>Annapurna Circuit</li>
+        <li>Langtang Valley</li>
+        <li>Ghorepani Poon Hill</li>
+        <li>Manaslu Circuit</li>
+        <li>Upper Mustang</li>
+    </ul>
+</div>
+
+
+
+    <div class="destination-container">
+
+        <div class="destination-card">
+            <img src="everest.jpeg" alt="Everest Base Camp">
+            <div class="destination-info">
+                <h3>Everest Base Camp Trek</h3>
+                <p>Reach the base of the world's 
+                    <br>highest peak and immerse yourself <br>
+                    in the Sherpa culture.</p>
+                <div class="details">
+                    <span class="difficulty challenging">Challenging</span>
+                    <span class="days">14 Days</span>
+                    <span class="price">$1,299</span>
+                </div>
+                <div class="buttons">
+                    <a href="#" onclick="showBookingBox()" class="book-now">Book Now</a>
+                        <!-- <div class="booking-box" id="bookingBox">
+    <div class="price">Price from: US$650 P/P</div>
+    <div class="controls">
+      <button onclick="alert('Group pricing available for 4+ travelers')">We offer group price</button>
+    </div>
+    <div class="controls">
+      <label for="date">Departure Date:</label>
+      <input type="date" id="date">
+    </div>
+    <div class="controls">
+      <label for="people">No. of Traveler:</label>
+      <input type="number" id="people" value="1" min="1" onchange="calculateTotal()">
+    </div>
+    <div id="total">Total Price: US$650</div>
+    <div class="btns">
+      <button onclick="alert('Booking confirmed')">BOOK NOW</button>
+      <button onclick="alert('Added to cart')">ADD TO CART</button>
+    </div>
+  </div> -->
+                    
+                    <a href="learn.html" class="learn-more">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="annapurna.jpeg" alt="Annapurna Circuit">
+            <div class="destination-info">
+                <h3>Annapurna Circuit Trek</h3>
+                <p>A breathtaking trek through diverse<br>
+                     landscapes and high mountain passes.</p>
+                <div class="details">
+                    <span class="difficulty moderate">Moderate</span>
+                    <span class="days">12 Days</span>
+                    <span class="price">$899</span>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="book-now">Book Now</a>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="langtang.jpeg" alt="Langtang Valley">
+            <div class="destination-info">
+                <h3>Langtang Valley Trek</h3>
+                <p>A stunning journey through lush valleys<br>
+                     and Tibetan-influenced villages.</p>
+                <div class="details">
+                    <span class="difficulty easy">Easy</span>
+                    <span class="days">10 Days</span>
+                    <span class="price">$799</span>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="book-now">Book Now</a>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="manaslu.jpeg" alt="Manaslu Circuit">
+            <div class="destination-info">
+                <h3>Manaslu Circuit Trek</h3>
+                <p>Off-the-beaten-path adventure with<br>
+                     dramatic landscapes and rich cultural experiences.</p>
+                <div class="details">
+                    <span class="difficulty challenging">Challenging</span>
+                    <span class="days">15 Days</span>
+                    <span class="price">$1,199</span>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="book-now">Book Now</a>
+                    <a href="learn1.html" class="learn-more">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="ghorepani.jpeg" alt="Ghorepani Poon Hill">
+            <div class="destination-info">
+                <h3>Ghorepani Poon Hill Trek</h3>
+                <p>A short yet scenic trek perfect<br>
+                     for beginners, with mesmerizing <br>
+                    sunrise views.</p>
+                <div class="details">
+                    <span class="difficulty easy">Easy</span>
+                    <span class="days">5 Days</span>
+                    <span class="price">$499</span>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="book-now">Book Now</a>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <!-- also shows rating in particular destination  and reviews  -->
+
+
+        <div class="destination-card">
+            <img src="uppermustang.jpeg" alt="Upper Mustang">
+            <div class="destination-info">
+                <h3>Upper Mustang Trek</h3>
+                <p>An exclusive trek into Nepal’s <br>
+                    hidden kingdom, rich in Tibetan<br> 
+                    culture and history.</p>
+                <div class="details">
+                    <span class="difficulty moderate">Moderate</span>
+                    <span class="days">14 Days</span>
+                    <span class="price">$1,499</span>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="book-now">Book Now</a>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    
+    <section id="gallery">
+    <h2>Photo Gallery</h2>
+    <div class="gallery-container">
+        <img src="gallery1.jpg" class="gallery-item" alt="Gallery Image 1">
+        <img src="gallery2.jpeg" class="gallery-item" alt="Gallery Image 2">
+        <img src="gallery3.jpeg" class="gallery-item" alt="Gallery Image 3">
+        <img src="gallery4.jpeg" class="gallery-item" alt="Gallery Image 4">
+        <img src="gallery5.jpeg" class="gallery-item" alt="Gallery Image 5">
+        <img src="gallery6.jpeg" class="gallery-item" alt="Gallery Image 6">
+        <img src="manaslu1.jpeg" class="gallery-item" alt="Gallery Image 7">
+        <img src="manaslu2.jpeg" class="gallery-item" alt="Gallery Image 8">
+        <img src="manaslu3.jpeg" class="gallery-item" alt="Gallery">
+        <img src="everest1.jpeg" class="gallery-item" alt="Gallery Image 9">
+        <img src="everest2.jpeg" class="gallery-item" alt="Gallery Image 10">
+        <img src="everest3.jpeg" class="gallery-item" alt="Gallery Image
+
+    </div>
+    
+    <!-- Lightbox for viewing images -->
+    <div id="lightbox">
+        <span id="close-lightbox">&times;</span>
+        <img id="lightbox-img" src="" alt="Expanded Image">
+    </div>
+</section>
+<section id="testimonials">
+    <h2>What Our Trekkers Say</h2>
+    <p class="subtitle">Hear from real adventurers who trekked with us!</p>
+    <div class="testimonial-container">
+        
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <img src="sarah.jpg" alt="Sarah Johnson">
+                <div class="reviewer-info">
+                    <h3>Yadav Sanjit</h3>
+                    <p>USA | Everest Base Camp</p>
+                </div>
+                <div class="star-rating">★★★★★</div>
+            </div>
+            <p class="testimonial-text">The Everest Base Camp trek with Trek Hub Nepal was absolutely incredible! Our guide was knowledgeable and made the journey unforgettable.</p>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <img src="marco.jpg" alt="Marco Rodriguez">
+                <div class="reviewer-info">
+                    <h3>Marco Rodriguez</h3>
+                    <p>Spain | Annapurna Circuit</p>
+                </div>
+                <div class="star-rating">★★★★★</div>
+            </div>
+            <p class="testimonial-text">Amazing adventure! The Annapurna Circuit was perfectly organized, and the team ensured every detail was taken care of.</p>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <img src="emily.jpg" alt="Emily Chen">
+                <div class="reviewer-info">
+                    <h3>Emily Chen</h3>
+                    <p>Australia | Langtang Valley</p>
+                </div>
+                <div class="star-rating">★★★★★</div>
+            </div>
+            <p class="testimonial-text">Perfect for my first Himalayan trek! The Langtang Valley trek was well-paced and offered breathtaking scenery.</p>
+        </div>
+
+    </div>
+</section>
+
+ <div class="contact-container">
+        <div class="contact-info">
+            <h2>Get In Touch</h2>
+            <div class="contact-item">
+                <div class="icon">
+                <img src="location-icon.png" alt="Location Icon">
+                <div>
+                    <strong>Office Address</strong><br>
+                    Thamel, Kathmandu 44600, Nepal
+                </div>
+            </div>
+            </div>
+            <div class="contact-item">
+                <div class="icon">
+                <img src="phone-icon.png" alt="Phone Icon">
+                <div class="info">
+                    <strong>Phone</strong><br>
+                    +977-1-4123456<br>
+                    +977-9841234567
+                </div>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="icon">
+                <img src="email-icon.jpeg" alt="Email Icon">
+                <div>
+                    <strong>Email</strong><br>
+                    <a href="mailto:info@trekhubnepal.com">info@trekhubnepal.com</a><br>
+                    <a href="mailto:booking@trekhubnepal.com">booking@trekhubnepal.com</a>
+                </div>
+            </div>
+            </div>
+            <div class="contact-item">
+                <div class="icon">
+                <img src="whatsapp-icon.png" alt="WhatsApp Icon">
+                <div>
+                    <strong>WhatsApp</strong><br>
+                    +977-9841234567
+                </div>
+            </div>
+            </div>
+            <div class="whatsapp-button">
+                <a href="https://wa.me/9779841234567">Chat with us</a>
+            </div>
+           <p>Follow us on social media for the latest updates and offers!</p>
+        
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+            </div>
+        <div class="contact-map">
+            <h2>Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.123456789012!2d85.32412345678901!3d27.717245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e6c12345678901%3A0x1234567890123456!2sTrek%20Hub%20Nepal!5e0!3m2!1sen!2snp!4v1612345678901" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form id="contactForm">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error-message" id="nameError"></span>
+
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message" id="emailError"></span>
+
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required>
+                <span class="error-message" id="phoneError"></span>
+
+               
+
+
+
+                <label for="trek">Interested Trek *</label>
+                <select id="trek" name="trek" required>
+                    <option value="">Select a trek</option>
+                    <option value="everest">Everest Base Camp</option>
+                    <option value="annapurna">Annapurna Circuit</option>
+                    <option value="langtang">Langtang Valley</option>
+                </select>
+                <span class="error-message" id="trekError"></span>
+ <!-- also add dynamic calendar to fix the date and time of the trek -->
+                <label for="date">Preferred Date *</label>
+                <input type="date" id="date" name="date" required>
+                <span class="error-message" id="dateError"></span>
+
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" required></textarea>
+                <span class="error-message" id="messageError"></span>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+<div>
+    <button id="scrollTopBtn" title="Go to top">↑</button>
+</div>
+<script>
+    // Smooth scroll to top
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+    scrollTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Show/Hide scroll button based on scroll position
+    window.addEventListener('scroll', () => {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollTopBtn.style.display = 'block';
+        } else {
+            scrollTopBtn.style.display = 'none';
+        }
+    });
+
+    // Lightbox functionality for gallery images
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const closeLightbox = document.getElementById('close-lightbox');
+
+    document.querySelectorAll('.gallery-item').forEach(item => {
+        item.addEventListener('click', () => {
+            lightbox.style.display = 'block';
+            lightboxImg.src = item.src;
+        });
+    });
+
+    closeLightbox.addEventListener('click', () => {
+        lightbox.style.display = 'none';
+    });
+</script>
+
+
+    <footer>
+        <p>&copy; 2025 Trek Hub Nepal. All rights reserved.|Licensed By Nepal Tourism Board</p>
+</body>
+</html>
